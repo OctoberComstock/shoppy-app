@@ -12,6 +12,12 @@ end
 group :development do
   gem 'sqlite3'
 end
+# Spree ecommerce gem
+gem 'spree', github: 'spree/spree', branch: '3-0-stable'
+#Spree extension spree_i18n
+gem 'spree_i18n', git: 'git://github.com/spree/spree_i18n.git', branch: '3-0-stable'
+# User Authentication
+gem 'devise'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
